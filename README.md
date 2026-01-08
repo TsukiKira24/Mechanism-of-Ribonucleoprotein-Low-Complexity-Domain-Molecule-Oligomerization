@@ -65,9 +65,9 @@ Based on MD results pdb file:
 
 ---
 
-## Usage
+## Disclamer
 
-
+Custom Python analysis scripts were developed and debugged with assistance from AI tools (Claude, Anthropic). All codes were validated against reference datasets to ensure 100% data coverage and correctness.
 
 ## Requirements
 
@@ -76,4 +76,4 @@ Based on MD results pdb file:
 
 ## Citation
 
-If you use these scripts, please cite: [...]
+If you use these scripts, please cite: https://doi.org/10.1016/j.ijbiomac.2025.149930
