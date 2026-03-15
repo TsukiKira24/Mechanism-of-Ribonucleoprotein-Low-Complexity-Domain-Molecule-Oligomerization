@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-contact_analysis_fragment.py
+Contact_map_and_barplots_highlight_fragment-263-319.py
 ============================
 Protein–ion contact analysis pipeline with fragment-region highlighting.
 
