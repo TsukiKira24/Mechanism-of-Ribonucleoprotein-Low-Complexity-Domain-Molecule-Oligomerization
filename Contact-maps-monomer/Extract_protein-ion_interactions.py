@@ -32,7 +32,6 @@ Author  : Aleksandra Wosztyl, Claude
 import MDAnalysis as mda
 from MDAnalysis.lib.distances import distance_array
 import numpy as np
-import pandas as pd
 
 # SETTINGS
 cutoff = 5.0  # Å
