@@ -45,8 +45,7 @@ Requirements
 ------------
     NumPy, pandas, matplotlib, scipy
 
-Author  : Aleksandra Wosztyl (Rizo Lab, UT Southwestern Medical Center)
-Created : 2026
+Author  : Aleksandra Wosztyl 
 """
 
 from __future__ import annotations
