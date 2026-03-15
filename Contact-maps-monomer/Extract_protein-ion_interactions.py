@@ -1,7 +1,32 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-FIRST STEP IN ANALYSIS
-Extraction of protein-ion interactions
+extract_protein_ion_interactions.py
+===================================
+Extract protein–ion interactions from multi-model PDB trajectories.
+
+For each frame in the trajectory, every protein atom within a user-defined
+distance cutoff of a Cl⁻ or Na⁺ ion is recorded.  Results are written to
+separate per-ion-type text files whose rows have the form:
+
+    frame <n> <resname> <resid> chain <segid> interacts_with_<iontype>_<ionresid>
+
+The script iterates over all requested pH conditions automatically.
+
+Usage
+-----
+    python extract_protein_ion_interactions.py
+
+Adjust the constants in the "Configuration" section below to match your
+system naming conventions and analysis parameters.
+
+Requirements
+------------
+- MDAnalysis
+- NumPy
+- Python ≥ 3.8
+
+Author  : Aleksandra Wosztyl, Claude 
 """
 
 import MDAnalysis as mda
