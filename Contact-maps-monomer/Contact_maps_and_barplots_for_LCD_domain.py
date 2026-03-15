@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-contact_analysis_pipeline.py
+Contact_maps_and_barplots_for_LCD_domain.py
 ============================
 Protein–ion contact analysis pipeline for molecular dynamics trajectories.
 
@@ -38,7 +38,7 @@ For each pH condition (e.g. ``PH = '74'``):
 
 Usage
 -----
-    python contact_analysis_pipeline.py
+    Contact_maps_and_barplots_for_LCD_domain.py
 
 Adjust parameters in the ``Config`` class below.
 
