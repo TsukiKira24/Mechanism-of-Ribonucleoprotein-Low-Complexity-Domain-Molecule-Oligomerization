@@ -30,7 +30,7 @@ Outputs
 
 Usage
 -----
-    python overlaid_fragment_analysis.py
+    python 6WQK_fibril_inner_contact.py
 
 Or call programmatically::
 
