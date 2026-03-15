@@ -39,7 +39,7 @@ For each pH condition (e.g. ``PH = '74'``):
 
 Usage
 -----
-    python contact_analysis_fragment.py
+    python Contact_map_and_barplots_highlight_fragment-263-319.py
 
 Adjust parameters in the ``Config`` class below.
 
