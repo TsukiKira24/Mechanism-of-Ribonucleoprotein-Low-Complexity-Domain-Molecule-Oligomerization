@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-extract_protein_ion_interactions.py
+Extract_protein_ion_interactions.py
 ===================================
 Extract protein–ion interactions from multi-model PDB trajectories.
 
@@ -15,7 +15,7 @@ The script iterates over all requested pH conditions automatically.
 
 Usage
 -----
-    python extract_protein_ion_interactions.py
+    python Extract_protein_ion_interactions.py
 
 Adjust the constants in the "Configuration" section below to match your
 system naming conventions and analysis parameters.
